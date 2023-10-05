@@ -3,7 +3,7 @@
     src: url(../font/KOMIKAX_.ttf);
  }
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cartoon;
     margin: 0;
     padding: 0;
 }
@@ -64,7 +64,7 @@ body{
     background-color: #fcdc04;
     background-image: url("../img/923.jpg");
     background-size: cover;
-    background-position: center;
+    
     background-repeat: no-repeat;
 }
 *{
