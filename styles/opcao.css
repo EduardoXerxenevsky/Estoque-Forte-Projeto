@@ -8,6 +8,7 @@ section{
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
+    margin-top: 40px;
     padding: 40px;
     border-radius: 15px;
     color:black;
@@ -104,6 +105,9 @@ input{
       position: relative;
       top: 12%;
     }
-    
+#message{
+  text-align: center;
+  padding-top: 30px;
+}
  
 
