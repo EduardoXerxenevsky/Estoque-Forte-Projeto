@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Cartoon;
+    src: url(../font/KOMIKAX_.ttf);
+ }
+body {
+    font-family: Cartoon;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #966d02;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+nav .botao {
+    display: inline-block;
+    color: #fcc73b;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: 500ms;
+
+}
+
+nav .botao:hover {
+    background-color: #fcc73b;
+    color: #cc7504;
+    transition: 500ms;
+    border-radius: 15px;
+}
+
+nav .botao:not(:last-child) {
+    border-right: 1px solid #fcc73b;
+}
+
+nav img {
+    width: 100px;
+    vertical-align: middle;
+    margin-right: 20px;
+    transition: 
+    rotate 1000ms;
+    ;
+    cursor: pointer;
+}
+nav .img :hover{
+    rotate: 360deg;
+    
+}
+
+#content{
+    width: 100%;
+    height: 760px;
+}
+iframe{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #fcdc04;
+    background-image: url("../img/923.jpg");
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+*{
+    font-family: Cartoon;
+}
